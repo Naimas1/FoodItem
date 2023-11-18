@@ -9,4 +9,14 @@
     {
         throw new NotImplementedException();
     }
+
+    internal double Max(Func<object, object> value)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal object Select(Func<object, object> value)
+    {
+        throw new NotImplementedException();
+    }
 }

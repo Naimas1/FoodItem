@@ -16,6 +16,7 @@ public class FoodDbContext : DbContext
 {
     public DbSet<FoodItem> FoodItems { get; set; }
     public object Database { get; internal set; }
+    public IEnumerable<object> FoodItems2 { get; internal set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
